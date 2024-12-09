@@ -7,7 +7,7 @@ class AnimatedMagnifier extends StatefulWidget {
   State<AnimatedMagnifier> createState() => AnimatedMagnifierState();
 }
 
-class AnimatedMagnifierState extends State<AnimatedMagnifier> {
+class AnimatedMagnifierState extends State<AnimatedMagnifier>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
@@ -43,4 +43,3 @@ class AnimatedMagnifierState extends State<AnimatedMagnifier> {
   );
   }
   }
-}
